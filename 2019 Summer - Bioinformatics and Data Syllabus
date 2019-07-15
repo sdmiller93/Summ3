@@ -1,0 +1,121 @@
+Biology 589: Bioinformatics and Data Visualization and Analysis		Summer 2019 - Session 3
+Blended Course: Online and In-Person
+
+########################################################################
+
+Instructor: Dr. Christopher Stieha		Office Hours (by appointment)
+Office: Roddy 273						
+Phone: (717) 871 – 4081					
+Email: FirstName.LastName ||at|| millersville
+
+Email policy: 	Barring unusual circumstances, I will respond within two business days.  If you do not receive a response within two business days, please resend the email because it did not reach me.  Although I will attempt to respond quickly, please do not expect a response after 5 pm.
+
+########################################################################
+
+TEXTBOOKS
+
+Required
+
+Chang, J., B. Chapman, I. Friedbreg, T. Hamerlryck, M. de Hoon, P. Cock, T. Antao, E. Talevich, and B. Wilczyński. 2018. Biopython Tutorial and Cookbook (Biopython 1.73).  Accessed 10 June 2019.
+http://biopython.org/DIST/docs/tutorial/Tutorial.html
+
+Krijnen, W. P. 2009.  Applied Statistics for Bioinformatics using R. https://cran.r-project.org/doc/contrib/Krijnen-IntroBioInfStatistics.pdf
+
+Wickham, H. 2016. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://github.com/hadley/ggplot2-book
+
+Supplemental Online Material
+
+Sweigart, A. 2015.  Automate the Boring Stuff with Python.  No Starch Press, San Francisco, CA, USA. ISBN-13: 978-1593275990
+Available online at https://automatetheboringstuff.com/ 
+Updates at https://nostarch.com/automatestuff
+
+Chacon, S. and B. Straub.  2014. Pro Git, 2nd Edition.  Apress Media LLC, NeW York, NY, USA. ISBN-13: 978-1484200773
+Available online at https://git-scm.com/book/en/v2
+
+########################################################################
+
+COURSE OBJECTIVES
+
+By the end of this course, you should be able to
+1) Define, understand, and apply data visualization and analysis terminology and techniques
+2) Solve problems and create tools to visualize and analyze data
+3) Develop basic structure of programming and organizing programming projects using files, folders, and git
+3) Implement data anaylsis, visualization, and bioinformatic tools in the programming language R
+4) Design, implement, analyze, interpret, and report results of analyses in bioinformatics
+
+########################################################################
+
+SUCCESS
+
+Please inform me of any disabilities or special needs that may impact your performance in this course.  I will do my best to accommodate you and support your success in this class.   
+
+ATTENDANCE
+
+Attendance is required as daily updates to the course website (https://github.com/sdmiller93/Summ3) and partipation in meetings, whether in-person, online, or over the phone.  If you miss a day, you must contact me BEFORE the next class to determine if you are eligible to make up the points.  Valid excuses are documented illness or injury, death in the family, jury duty, participation in University-sponsored activities, etc. on a case-by-case basis.  If participating in a University-sponsored activity, you must inform me of the absence at the beginning of the course.  Even if you do not have a valid excuse, you are responsible for the material that we covered.  
+
+########################################################################
+
+GRADING
+
+Activity				Course Points		Percentage of Grade	
+Programming Exercises				100			50%	
+Final Project					100			50%
+Total						200
+
+Programming Exercises: Daily exercises to teach bioinformatic tools, data analysis, and data visualization and test on the understanding of the techniques and tools.  Completed excercises to be uploaded daily to course website.
+
+Final Project: Project designed in collaboration with the instructor and research advisors to analyze a data set using tools and techniques developed in the class.   Final results to reported as a written report as well as presentation.
+
+Grading Scale: The lower limits for each letter grade is: A = 93%; A- = 90%; B+ = 87%; B = 83%; B- = 80%; C+ = 77%; C = 73%; C- = 70%; D+ = 67%; D = 63%; D- = 60%. Anything below 60% is an F.
+
+########################################################################
+
+Honesty
+
+Cheating and plagiarism, defined in Millersville University’s Student Handbook and Academic Honesty and Dishonesty brochure, will result in a 0 for the exam or assignment.  Further action may be taken, such as referral to Student Affairs and failure of the class.  I understand you talk to your fellow students and may work together on in-class exercises, but you must turn in your own work.
+			
+########################################################################
+			
+TITLE IX
+
+Millersville University and its faculty are committed to assuring a safe and productive educational environment for all students. In order to meet this commitment, comply with Title IX of the Education Amendments of 1972, 20 U.S.C. §1681, et seq., and act in accordance with guidance from the Office for Civil Rights, the University requires faculty members to report to the University’s Title IX Coordinator incidents of sexual violence shared by students. The only exceptions to the faculty member’s reporting obligation are when incidents of sexual violence are communicated by a student during a classroom discussion, in a writing assignment for a class, or as part of a University-approved research project. Faculty members are obligated to report to the person designated in the University Protection of Minors policy incidents of sexual violence or any other abuse of a student who was, or is, a child (a person under 18 years of age) when the abuse allegedly occurred.
+Information regarding the reporting of sexual violence, and the resources that are available to victims of sexual violence, is available at www.millersville.edu/titleix
+
+########################################################################
+
+ACTIVITY SCHEDULE
+
+Lecture topics may change depending on the rate at which we are covering material.  If class is canceled due to University closing and delays, supplementary work may be required.  
+
+Date		Topic 								Exercises				
+15 July		Brief Introduction into Using R		Krijnen Ch 1
+16 July		Data Display and Descriptive Stats	Krijnen Ch 2
+17 July		Important Distributions				Krijnen Ch 3
+18 July		Estimation and Inference			Krijnen Ch 4
+19 July		Linear Models						Krijnen Ch 5
+
+22 July		Cluster Analysis					Biopython Ch 15
+23 July		Cluster Analysis					Biopython Ch 15
+24 July		Cluster Analysis and Trees			Krijnen Ch 7.1-7.3
+25 July		Cluster Analysis and Trees			Krijnen Ch 7.4-7.6
+26 July		Application and Review
+
+29 July		Getting started with ggplot2		Wickham Ch 1 & 2
+30 July		Toolbox								Wickham Ch 3
+31 July		Mastering the Grammar				Wickham Ch 4
+01 Aug.		Building a Plit						Wickham Ch 5
+02 Aug.		Scales, Axes, and Legends			Wickham Ch 6
+
+05 Aug.		Positioning and Themes				Wickham Ch 7 & 8
+06 Aug.		Micro Array Analysis				Krijnen Ch 6
+07 Aug.		Classification Methods				Krijnen Ch 8
+08 Aug.		Classification Methods				Krijnen Ch 8
+09 Aug.		Application and Review
+
+12 Aug.		Analyzing Sequences					Krijnen Ch 9
+13 Aug.		Analyzing Sequences					Krijnen Ch 9
+14 Aug.		Markov Models						Krijnen Ch 10
+15 Aug.		Markov Models						Krijnen Ch 10
+16 Aug.		Application and Review
+
+
