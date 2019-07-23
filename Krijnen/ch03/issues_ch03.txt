@@ -1,3 +1,11 @@
 # So the mathematical equations..... how well should I be understanding them?
 
-# 
+# 3.1.1, example 1:
+
+To visualize the Binomial distribution, load the TeachingDemos
+package and use the command vis.binom(). Click on ”Show Normal Approximation” and observe that the approximation improves as n increases,
+taking p for instance near 0.5.
+
+Are they expecting these to be done in like Rstudio or something?
+
+# when things slow down a bit, I plan to go back and do the exercises for each of the first five chapters. 

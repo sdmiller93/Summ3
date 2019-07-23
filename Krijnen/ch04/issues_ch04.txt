@@ -1,0 +1,5 @@
+# 4.1.7 example 4 discusses Fisher's exact test. the differential expression program that I am using, edgeR, uses this method. Can we talk about this in more detail?
+
+# couldn't get library(nortest) to load. Says there is no package.. must have missed this somewhere ** can't get library(outliers) either
+
+

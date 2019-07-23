@@ -1,1 +1,174 @@
+> install.packages(c("TeachingDemos"),repo="http://cran.r-project.org",
++ + dep=TRUE)
+Error: unexpected '=' in:
+"install.packages(c("TeachingDemos"),repo="http://cran.r-project.org",
++ dep="
+> install.packages(c("TeachingDemos"),repo="http://cran.r-project.org", dep = TRUE)
+Warning: dependency ‘R2wd’ is not available
+also installing the dependencies ‘callr’, ‘sourcetools’, ‘miniUI’, ‘webshot’, ‘shiny’, ‘crosstalk’, ‘manipulateWidget’, ‘sp’, ‘tkrplot’, ‘rgl’, ‘tcltk2’, ‘png’, ‘logspline’, ‘maptools’, ‘manipulate’
 
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/callr_3.3.1.tgz'
+Content type 'application/x-gzip' length 334195 bytes (326 KB)
+==================================================
+downloaded 326 KB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/sourcetools_0.1.7.tgz'
+Content type 'application/x-gzip' length 133213 bytes (130 KB)
+==================================================
+downloaded 130 KB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/miniUI_0.1.1.1.tgz'
+Content type 'application/x-gzip' length 33644 bytes (32 KB)
+==================================================
+downloaded 32 KB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/webshot_0.5.1.tgz'
+Content type 'application/x-gzip' length 128111 bytes (125 KB)
+==================================================
+downloaded 125 KB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/shiny_1.3.2.tgz'
+Content type 'application/x-gzip' length 4629505 bytes (4.4 MB)
+==================================================
+downloaded 4.4 MB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/crosstalk_1.0.0.tgz'
+Content type 'application/x-gzip' length 647834 bytes (632 KB)
+==================================================
+downloaded 632 KB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/manipulateWidget_0.10.0.tgz'
+Content type 'application/x-gzip' length 1860125 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/sp_1.3-1.tgz'
+Content type 'application/x-gzip' length 1873005 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/tkrplot_0.0-24.tgz'
+Content type 'application/x-gzip' length 27386 bytes (26 KB)
+==================================================
+downloaded 26 KB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/rgl_0.100.26.tgz'
+Content type 'application/x-gzip' length 4666076 bytes (4.4 MB)
+==================================================
+downloaded 4.4 MB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/tcltk2_1.2-11.tgz'
+Content type 'application/x-gzip' length 968869 bytes (946 KB)
+==================================================
+downloaded 946 KB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/png_0.1-7.tgz'
+Content type 'application/x-gzip' length 353547 bytes (345 KB)
+==================================================
+downloaded 345 KB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/logspline_2.1.13.tgz'
+Content type 'application/x-gzip' length 269903 bytes (263 KB)
+==================================================
+downloaded 263 KB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/maptools_0.9-5.tgz'
+Content type 'application/x-gzip' length 2144286 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/manipulate_1.0.1.tgz'
+Content type 'application/x-gzip' length 43186 bytes (42 KB)
+==================================================
+downloaded 42 KB
+
+trying URL 'http://cran.r-project.org/bin/macosx/el-capitan/contrib/3.5/TeachingDemos_2.10.tgz'
+Content type 'application/x-gzip' length 2111331 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+
+The downloaded binary packages are in
+	/var/folders/xz/h3md1bb90jbbxyy19mk8d0h00000gn/T//RtmpSUtb0Y/downloaded_packages
+> library(TeachingDemos)
+> vix.binom()
+Error in vix.binom() : could not find function "vix.binom"
+> vis.binom()
+Error in vis.binom() : This function depends on the tcltk package
+> choose(3,1)*0.25^1*0.75^2
+[1] 0.421875
+> for (k in 0:3) print(dbinom(k,3,0.25))
+[1] 0.421875
+[1] 0.421875
+[1] 0.140625
+[1] 0.015625
+> x<- 0:22
+> plot(x,dbinom(x, size=22, prob=.7), type="h")
+> vis.normal()
+Error in vis.normal() : This function depends on the tcltk package
+> library(tcltk)
+Error: package or namespace load failed for ‘tcltk’:
+ .onLoad failed in loadNamespace() for 'tcltk', details:
+  call: fun(libname, pkgname)
+  error: X11 library is missing: install XQuartz from xquartz.macosforge.org
+> qnorm(0.25, 1.9, 0.5)
+[1] 1.562755
+> x <- rnorm(1000, 1.9, 0.5)
+> qchisq(0.025, 5, lower.tail=TRUE)
+[1] 0.8312116
+> library(multtest); data(golub)
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colMeans,
+    colnames, colSums, dirname, do.call, duplicated, eval, evalq,
+    Filter, Find, get, grep, grepl, intersect, is.unsorted, lapply,
+    lengths, Map, mapply, match, mget, order, paste, pmax, pmax.int,
+    pmin, pmin.int, Position, rank, rbind, Reduce, rowMeans, rownames,
+    rowSums, sapply, setdiff, sort, table, tapply, union, unique,
+    unsplit, which, which.max, which.min
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+> gol.fac <- factor(golub.cl,levels=0:1, labels= c("ALL","AML"))
+> x <- golub[1042,gol.fac=="ALL"]
+> z <- (x-1.90)/0.50
+> sum(z^2)
+[1] 25.03312
+> pchiq(sum(z^2),27, lower.tail=false)
+Error in pchiq(sum(z^2), 27, lower.tail = false) : 
+  could not find function "pchiq"
+> pchisq(sum(z^2),27, lower.tail=FALSE)
+[1] 0.5726059
+> n <- 11
+> n <- 11
+> x <- golub[2058, gol.fac=="AML"]
+> t.value <- sqrt(n)*(mean(x)-0)/sd(x)
+> t.value
+[1] 1.236324
+> var(golub[1042,gol.fac=="ALL"])/var(golub[1042,gol.fac=="AML"])
+[1] 0.7116441
+> f<-function(x){dnorm(x,1.9,0.5)}
+> plot(f,0,4,xlab="x-axis",ylab="density f(x)")
+> plot(f,0,4,xlab="x-axis",ylab="density f(x)")
+> x<-seq(0,1.4,0.01)
+> polygon(c(0,x,1.4), c(0,f(x),0), col="lightblue")
