@@ -1,0 +1,20 @@
+# CH02 issues
+
+# 2.1.1
+
+> pie(table(read.GenBank(c("X94991.1"))))
+Error in order(y) : unimplemented type 'raw' in 'orderVector1'
+
+
+
+# 2.1.5
+> qqline(golub[1042, gol.fac=="ALL"])
+Error in int_abline(a = a, b = b, h = h, v = v, untf = untf, ...) : 
+  plot.new has not been called yet
+> qqline(golub[1042, gol.fac=="ALL"])
+Error in int_abline(a = a, b = b, h = h, v = v, untf = untf, ...) : 
+  plot.new has not been called yet
+ 
+gives a blank plot
+
+
