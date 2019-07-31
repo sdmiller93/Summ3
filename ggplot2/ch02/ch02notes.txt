@@ -1,0 +1,29 @@
+## NOTES FOR CH02
+
+three components of every plot:
+1. data
+2. aesthetics 
+3. geoms
+
+gplot() is a shortcut to quickly bang out a simple plot without thinking about grammar
+
+# EXERCISES
+1. summary, library(skimr)
+skim(df) shows missing values, quantile info, and inline histograms, mean()
+2. data () shows datasets in package
+3. miles/gallon --> X gallon/62 miles 
+4. **
+
+# ggplot2 plot key components
+1. data
+2. set of aesthetic mappings between variables and visual properties
+3. at least one layer describing how to render each observation 
+
+* layers are created with the geom function
+
+data & aesthetic are supplied in ggplot() 
+layers are added on with + geom_XXXX
+
+the first two unnamed arguments to aes() will be mapped to x and then y 
+
+
