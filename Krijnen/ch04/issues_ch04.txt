@@ -1,5 +1,37 @@
 # 4.1.7 example 4 discusses Fisher's exact test. the differential expression program that I am using, edgeR, uses this method. Can we talk about this in more detail?
 
+Yes.
+
 # couldn't get library(nortest) to load. Says there is no package.. must have missed this somewhere ** can't get library(outliers) either
 
+Interesting.  I thought maybe that there were package requirements that you didn't install already, but there apears to be minimal requirements
+https://cran.r-project.org/web/packages/outliers/index.html
+https://cran.r-project.org/web/packages/nortest/index.html
+
+rerun
+install.packages("nortest")
+and see if it produces errors.  
+Same with outliers
+
+Here is example output from installation:
+
+> install.packages("outliers")
+Installing package into ‘/home/stieha/R/x86_64-pc-linux-gnu-library/3.5’
+(as ‘lib’ is unspecified)
+trying URL 'https://cloud.r-project.org/src/contrib/outliers_0.14.tar.gz'
+Content type 'application/x-gzip' length 15090 bytes (14 KB)
+==================================================
+downloaded 14 KB
+
+* installing *source* package ‘outliers’ ...
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (outliers)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxE9Vj6/downloaded_packages’
 

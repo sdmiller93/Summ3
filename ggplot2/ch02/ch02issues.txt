@@ -1,3 +1,14 @@
 ## ISSUES LIST FOR CH02
 
 2.2.1 exercises, #4 how do I do this efficiently?
+
+don't do it efficiently.  do it so it gives you the correct answer. ;)
+
+Some very good information on dataframes:
+https://www.datacamp.com/community/tutorials/15-easy-solutions-data-frame-problems-r
+
+Some information on how to extract information from data frames
+https://www.r-bloggers.com/examine-a-data-frame-in-r-with-7-basic-functions/
+
+A useful function to make counts
+https://www.rdocumentation.org/packages/base/versions/3.6.1/topics/table

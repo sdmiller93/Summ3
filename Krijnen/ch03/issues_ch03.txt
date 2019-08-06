@@ -1,5 +1,7 @@
 # So the mathematical equations..... how well should I be understanding them?
 
+Know that the distributions exist and what they are used for.  
+
 # 3.1.1, example 1:
 
 To visualize the Binomial distribution, load the TeachingDemos
@@ -7,5 +9,9 @@ package and use the command vis.binom(). Click on ‚ÄùShow Normal Approximation‚Ä
 taking p for instance near 0.5.
 
 Are they expecting these to be done in like Rstudio or something?
+
+I don't think so.  It loaded fine for me, although the slider bar was behind my graph, so it was hidden at first.
+It may be a mac issue, although R is supposed to be platform independent, but mac does use quartz as a visualizer, whereas
+linux and windows use x11
 
 # when things slow down a bit, I plan to go back and do the exercises for each of the first five chapters. 

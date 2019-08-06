@@ -5,6 +5,11 @@
 > pie(table(read.GenBank(c("X94991.1"))))
 Error in order(y) : unimplemented type 'raw' in 'orderVector1'
 
+# from your cho02_code.txt, the read.GenBank fails
+# although this line works: table(read.GenBank(c("X94991.1"),as.character=TRUE))
+#  a   c   g   t 
+#410 789 573 394 
+# code is: pie(table(read.GenBank(c("X94991.1"),as.character=TRUE)))
 
 
 # 2.1.5
@@ -17,4 +22,6 @@ Error in int_abline(a = a, b = b, h = h, v = v, untf = untf, ...) :
  
 gives a blank plot
 
-
+# qqline adds a line to a previously made plot (as opposed to makes a new plot), which was the qqnorm in the prior line
+# I think that you close the qqnorm plot, then ran this code.
+# because you closed the graph, R had nothing to plot to
